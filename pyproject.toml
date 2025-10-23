@@ -1,0 +1,15 @@
+[project]
+name = "texttosql-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "pgvector>=0.3.6",
+    "sqlalchemy>=2.0.44",
+    "openai>=0.27.6",
+    "langchain>=0.0.208",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.0.0",
+    "psycopg>=3.2.11",
+    "pyyaml>=6.0",
+]
